@@ -13,8 +13,8 @@ void MVA(void) {
 
    bool useRHC = false;
 
-   TString FHCSplitFile = "/storage/shared/ncchambe/FDMonteCarlo/FHCSplitMC.root";
-   TString RHCSplitFile = "/storage/shared/ncchambe/FDMonteCarlo/RHCSplitMC.root";
+   TString FHCSplitFile = "/storage/shared/ncchambe/FDMVA/FHCSplitMC.root";
+   TString RHCSplitFile = "/storage/shared/ncchambe/FDMVA/RHCSplitMC.root";
 
    TFile* inputFile = NULL;
    if (!useRHC) {
