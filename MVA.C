@@ -38,8 +38,8 @@ void MVA(void) {
    std::vector<TTree*> TreeArray = {NuTauSignalFromTauswap, NuTauBkgdFromTauswap, NuTauFromNueswap, NueFromNonswap, NueFromNueswap,
       NumuFromNonswap, NumuFromTauswap, NCTree};
 
-   TString FHCOutFileName = "/storage/shared/ncchambe/FDMonteCarlo/MVA/FHCMVA.root";
-   TString RHCOutFileName = "/storage/shared/ncchambe/FDMonteCarlo/MVA/RHCMVA.root";
+   TString FHCOutFileName = "/storage/shared/ncchambe/FDMVA/MVA/FHCMVA.root";
+   TString RHCOutFileName = "/storage/shared/ncchambe/FDMVA/MVA/RHCMVA.root";
 
    TFile* outputFile = NULL;
    if (!useRHC) {
